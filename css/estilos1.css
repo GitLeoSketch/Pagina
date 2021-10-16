@@ -1,0 +1,670 @@
+/* ----------------Estilos Index.html---------------- */
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ----------------Body---------------- */
+
+body{
+    background-image: url("../img/clouds-1223808_960_720_2.png");
+    background-size: cover;
+    background-attachment: fixed;
+    
+    background-color: #fde8cf;
+    background-blend-mode: luminosity;
+}
+
+p,h3,h4,figcaption,li,table,label,input,textarea{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;  
+}
+h4{
+    font-size: 25px; 
+}
+h3{
+    font-size: 30px;  
+}
+h2{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 40px;
+    height: 40px;
+    padding: 20px;  
+    border-left: solid 15px black;
+    margin-bottom: 30px;
+}
+
+img{
+   width: 300px; 
+}
+#informacion,#queHacer,#galeria,.registro,aside section{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+/* ----------------Main--------------- */
+main{
+    /* width: 1200px; */
+    margin: 0 auto;
+}
+
+/* ----------------Header---------------- */
+
+
+header{
+    width: 100%;
+    background-color: rgb(43 130 199);
+    background-image: url("../img/Paisaje_fondo.jpg");
+    /* background-position: center; */
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 0 0 30% 30%;
+    box-shadow: 6px 6px 30px black;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+header figure img{
+    filter: drop-shadow(5px 5px 10px white);
+    margin-top: 30px;
+    width: 150px;
+}
+header figure img:hover{
+    filter: drop-shadow(5px 5px 20px white); 
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    display: block;
+    width: 150px;
+    margin: 30px 10px;
+    padding: 10px;
+    border: transparent solid 3px;
+    border-radius: 10px;
+
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header nav ul li:nth-child(1) a:nth-child(1){
+    color: white;
+    background-color: rgb(60 54 118);
+    border: #2218615b solid 3px;
+}
+
+header nav ul li:nth-child(1) a:nth-child(1):hover{
+    border: #221861 solid 3px;
+    box-shadow: 6px 6px 5px #161055;
+}
+
+header nav ul li:nth-child(2) a:nth-child(1){
+    color: white;
+    background-color: rgb(236 115 69);
+    border: #e2201e57 solid 3px;
+}
+
+header nav ul li:nth-child(2) a:nth-child(1):hover{
+    box-shadow: 6px 6px 5px #e2211e;
+    border: #e2211e solid 3px;
+}
+
+header nav ul li:nth-child(3) a:nth-child(1){
+    color: #c14d2c;
+    border: #e9bf1a solid 3px;
+    background-color: rgb(246 206 52);
+}
+
+header nav ul li:nth-child(3) a:nth-child(1):hover{
+    box-shadow: 6px 6px 5px #c7a206;
+    border: #c7a206 solid 3px;
+}
+
+header nav ul li:nth-child(4) a:nth-child(1){
+    color: white;
+    background-color: #47951e;
+    border: #357714  solid 3px;
+}
+
+header nav ul li:nth-child(4) a:nth-child(1):hover{
+    box-shadow: 6px 6px 5px #224d0c  ;
+    border: #224d0c solid 3px;
+}
+
+/* .fondoVioleta{
+    color: white;
+    background-color: rgb(60 54 118);
+    border: #2218615b solid 3px;
+}
+.fondoVioleta:hover{
+    border: #221861 solid 3px;
+    box-shadow: 6px 6px 5px #161055;
+}
+
+.fondoNaranja{
+    color: white;
+    background-color: rgb(236 115 69);
+    border: #e2201e57 solid 3px;
+}
+.fondoNaranja:hover{
+    box-shadow: 6px 6px 5px #e2211e;
+    border: #e2211e solid 3px;
+}
+
+.fondoAmarillo{
+    color: #c14d2c;
+    border: #e9bf1a solid 3px;
+    background-color: rgb(246 206 52);
+}
+.fondoAmarillo:hover{
+    box-shadow: 6px 6px 5px #c7a206;
+    border: #c7a206 solid 3px;
+}
+
+.fondoVerde{
+    color: white;
+    background-color: #47951e;
+    border: #357714  solid 3px;
+}
+.fondoVerde:hover{
+    box-shadow: 6px 6px 5px #224d0c  ;
+    border: #224d0c solid 3px;
+} */
+header h1{
+    width: 700px;
+    margin: 0px auto;
+    padding: 60px 0 90px 0;
+    border-radius: 100%;
+    color: white;
+    font-family: 'Galada', cursive;
+    font-size: 80px;
+    text-decoration: underline;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+/* ----------------Seccion Informacion--------------- */
+
+#informacion h2, #informacion article, #queHacer Article{
+    width: 360px;
+    padding: 20px;  
+}
+
+#informacion{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+#informacion h2{
+    width: 345px;
+    color: rgb(60 54 118);
+    text-shadow: 10px 10px 5px rgb(74 60 211 / 35%);
+    border-color: rgb(60 54 118);
+    
+}
+
+#informacion article p{
+    text-align: justify;
+}
+
+#informacion article h3{
+    margin-bottom: 20px;
+}
+#informacion article h3 em{
+    font-style: normal;
+}
+#informacion article ol li{
+    list-style-position: inside;
+    font-weight: bold;
+}
+
+#informacion article ol li span{
+    font-weight: normal;
+}
+
+
+/* ----------------que hacer--------------- */
+#queHacer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#queHacer h2{
+    color: rgb(232 89 56);
+    border-color: rgb(232 87 55);
+    text-shadow: 10px 10px 5px rgb(221 113 104);
+    width: 100%;
+}
+#queHacer article{
+    padding-top: 0;
+}
+#queHacer article p{
+    
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#queHacer figure{
+    position: relative;
+    
+}
+#queHacer figure figcaption{
+    background-color: rgb(254 217 173 / 63%);
+    width: 300px;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 10px 10px 10px black;
+    position: absolute;
+    bottom: 40px;
+    font-size: 25px;
+    padding-left: 10px;   
+}
+
+#queHacer figure img{
+    /* border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 10px 20px black; */
+    width: 100%;
+}
+
+
+/* ----------------Galeria--------------- */
+#galeria{
+    /* background-color: rgb(206, 183, 243); */
+    
+}
+#galeria h2{
+    border-left: solid 15px #bd9a04;
+    text-shadow: 10px 10px 5px rgb(171 143 24);
+    color: #8b7517;
+}
+#galeria figure{
+    display: grid;
+    grid-gap: 20px 20px;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: 250px 250px;
+}
+#galeria figure img,#queHacer figure img{
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 10px 20px black;
+}
+
+#galeria figure img:nth-child(1){
+    height: 100%;
+    width: 100%;
+    grid-column: 1/ span 1;
+    grid-row: 1/ span 2;
+}
+
+#galeria figure img:nth-child(2){
+    height: 100%;
+    width: 100%;
+    grid-column: 2/ span 1;
+    grid-row: 1/ span 1;
+}
+
+#galeria figure img:nth-child(3){
+    height: 100%;
+    width: 100%;
+    grid-column: 3/ span 1;
+    grid-row: 1/ span 1;
+}
+
+#galeria figure img:nth-child(4){
+    height: 100%;
+    width: 100%;
+    grid-column: 2/ span 2;
+    grid-row: 2/ span 1;
+}
+/* .img1{
+    height: 100%;
+    width: 100%;
+    grid-column: 1/ span 1;
+    grid-row: 1/ span 2;
+} */
+/* .img2{
+    height: 100%;
+    width: 100%;
+    grid-column: 2/ span 1;
+    grid-row: 1/ span 1;
+} */
+/* .img3{
+    height: 100%;
+    width: 100%;
+    grid-column: 3/ span 1;
+    grid-row: 1/ span 1;
+} */
+/* .img4{
+    height: 100%;
+    width: 100%;
+    grid-column: 2/ span 2;
+    grid-row: 2/ span 1;
+   
+} */
+
+
+
+/* ----------------Form de Registro--------------- */
+
+.registro{
+    background-color: rgb(80 146 198);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 0 10px 20px black;
+}
+
+.registro h4{
+    width: 600px;
+    padding: 27.5px 0;
+    height: 25px;
+    
+    text-align: center;
+}
+
+.registro form{
+    padding: 20px 0;
+    width: 600px;
+
+}
+.registro h4 span{
+    color: white;
+    text-shadow: 5px 5px 20px black;
+}
+.registro form input[type="email"],.registro form input[type="submit"]{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(80 146 198);
+    border: black solid 3px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px black;
+}
+.registro form input[type="email"]{
+    width: 350px;
+    text-indent: 20px;
+    height: 34px;
+}
+.registro form input[type="email"]::placeholder{
+    color: white;
+    
+}
+.registro form input[type="submit"]{
+    width: 150px;
+    height: 40px;
+}
+
+
+/* ------------ASIDE- SECTIONS--------------- */
+
+aside section{
+    display: flex;
+}
+
+/* ----------------Top 10--------------- */
+#top10{
+    position: relative;    /* background-color: rgb(199, 201, 103); */
+    width: 600px;
+}
+#top10 h2{
+    text-shadow: 10px 10px 20px black;
+}
+
+#top10 table{
+    position: absolute;
+    left: -10px;
+    border-spacing: 10px;
+    width: 580px;
+    margin-right: 20px;
+    
+    text-align: left;
+   
+}
+
+#top10  table th, #top10 table td{
+    
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+     
+}
+
+#top10  table th{
+    text-indent: 10px;
+    color: white;  
+    background-color: rgb(31 132 175);
+    border: black solid 3px;
+}
+    
+#top10 table td{
+    border-left:  solid transparent 30px;
+    background-color: rgb(147 206 231);
+    border: white solid 3px;
+}
+
+
+
+/* ----------------Famosos-------------- */
+.famosos{
+    /* background-color: rgb(248, 176, 182); */
+    width: 600px;
+}
+.famosos ul{
+    margin-left: 30px;
+}
+.famosos h2{
+    text-shadow: 10px 10px 20px black;
+}
+.famosos ul li {
+    margin-bottom:  20px;
+    display: grid;
+    grid-template-columns: 150px 350px;
+    grid-template-rows: auto auto;
+}
+.famosos ul li figure{
+    grid-column: 1/ span 1;
+    grid-row: 1/ span 2;
+}
+.famosos ul li figure img {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: black solid 3px;
+    box-shadow: 10px 10px 10px black;
+
+    
+}
+
+.Nombre{
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+/* ----------------Formulario-------------- */
+
+.formulario{
+    border: solid 3px black;
+    background-color: rgb(226, 243, 132);
+    background-image: url("../img/calas-mallorca-cala-or.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+   /* text-align: center; */
+}
+.formulario h2{
+    width: 600px;
+    border: 0;
+    color: white;
+    text-decoration: underline;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    padding-top: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+.formulario form{
+    background-color: #ffebceb0;
+    display: flex;
+    flex-wrap: wrap;
+    
+    border-radius: 30px;
+    /* display: flex; */
+    margin: 30px auto;
+    padding-bottom: 30px;
+    width: 600px;
+    /* grid-template-columns:300px 300px;
+    grid-template-rows: repeat(7,auto); */
+    /* grid-row-gap: 20px; */
+    
+    /* background-color: rgb(154, 243, 132); */
+}
+.formulario label{
+    padding-top: 10px;
+}
+.formulario form textarea{
+    
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 150px;
+    max-height: 200px;
+}
+.formulario form input,.formulario form textarea{
+    border-radius: 10px;
+    border: solid 3px #1f84af;
+
+}
+.formulario form label,.formulario form input,.formulario form textarea{
+    
+    text-indent: 10px;
+    /* padding-top: 20px; */
+    /* background-color: blueviolet; */
+    display: inline-block;
+    margin-left: 100px;
+    width: 400px;
+   
+}
+
+.formulario form input:nth-of-type(1),.formulario form input:nth-of-type(2){
+    
+   height: 40px;    
+   /* background-color: burlywood; */
+}
+.formulario form input:nth-of-type(3){
+  
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.formulario form label:nth-of-type(4){
+    font-size: 15px;
+    padding-top: 20px;
+    margin-left: 10px;
+    height: 50px;  
+    width: 180px;  
+    text-indent:0px;
+    /* background-color: burlywood; */
+ }
+ .formulario form input:nth-of-type(4){
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 160px;
+    border-radius: 10px;
+    text-indent: 0px;
+}
+
+ /* } 
+.formUno{
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 1;
+}
+.formDos{
+    grid-column: 1/ span 2;
+    grid-row: 2/ span 1;
+}
+.formTres{
+    grid-column: 1/ span 2;
+    grid-row: 3/ span 1;
+}
+.formCuatro{
+    grid-column: 1/ span 2;
+    grid-row: 4/ span 1;
+}
+.formCinco{
+    grid-column: 1/ span 2;
+    grid-row: 5/ span 1;
+}
+.formSeis{
+    grid-column: 1/ span 2;
+    grid-row: 6/ span 1;
+}
+.formSiete{
+    grid-column: 1/ span 1;
+    grid-row: 7/ span 1;
+}
+.formOcho{
+    grid-column: 2/ span 1;
+    grid-row: 7/ span 1;
+} */
+ 
+/* --------FOOTER---------------- */
+footer{
+    background-image: url("../img/clouds-1223808_960_720_2.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(80 146 198);
+    background-blend-mode: luminosity;
+    
+}
+footer nav ul li{
+    width: 64px;
+    height: 64px;
+
+    /* background-color: red; */
+    margin: 30px 10px;
+
+    background-image: url("../img/Iconos_1.png");
+    background-size: 192px 128px;
+    background-repeat: no-repeat;
+}
+
+.Tweeter{
+    background-position: 0 0;
+}
+/* pseudoelemento hover, cambia las propiedades al pasar por ensima el mmouse */
+.Tweeter:hover{
+    background-position: 0 -64px;
+}
+.instagram{
+    background-position: -64px 0;
+}
+.instagram:hover{
+    background-position: -64px -64px;
+}
+.facebook{
+    background-position: -128px 0;
+}
+.facebook:hover{
+    background-position: -128px -64px;
+}
